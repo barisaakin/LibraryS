@@ -11,6 +11,6 @@ namespace UdemyKitapSitesi.Models
         [Required(ErrorMessage ="Bu alan boş bırakılamaz!")] //do not be  null
         [MaxLength(25)]
         [DisplayName("Kitap Türü Adı")]
-        public string? Name { get; set; }
+        public string? Name { get; set; }//hhhhh
     }
 }
