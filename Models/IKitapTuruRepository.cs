@@ -2,7 +2,6 @@
 {
     public interface IKitapTuruRepository : IRepository<KitapTuru>
     {
-        void Guncelle(KitapTuru kitapTuru);
-        void Kaydet();
+        void Guncelle(KitapTuru kitapTuru);//ssss
     }
 }
